@@ -50,6 +50,13 @@ function reduceToAllTrue(sourceArray) {
     return false
   else
     return true
-  
+}
+
+function reduceToAnyTrue(sourceArray) {
+    for (let i = 0; i < sourceArray.length; i++) {
+    if (sourceArray[i] === true) {
+      return true;
+    }
+  }
 }
 
