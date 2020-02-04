@@ -58,5 +58,6 @@ function reduceToAnyTrue(sourceArray) {
       return true;
     }
   }
+  return false;
 }
 
