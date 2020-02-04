@@ -1,5 +1,5 @@
 // Your code here
-function mapToNegative(sourceArray) {
+function mapToNegativize(sourceArray) {
   for(let i = 0; i < sourceArray.length; i++) {
     
   }
